@@ -52,5 +52,29 @@ public class Bicicleta {
                 "\n   precio:  " + this.precio;
 	}
 	
+	/*
+	 * use bicicleteria;
+
+create table bicicleta (
+	id int NOT NULL AUTO_INCREMENT,
+    marca varchar(20),
+    modelo varchar(20),
+    precio int,
+    primary key(id)
+)
+use bicicleteria;
+INSERT INTO `bicicleteria`.`bicicletas` (`marca`, `modelo`,`precio`) VALUES ('Marca1', 'Modelo3',2000);
+INSERT INTO `bicicleteria`.`bicicletas` (`marca`, `modelo`,`precio`) VALUES ('Marca1', 'Modelo3',2000);
+INSERT INTO `bicicleteria`.`bicicletas` (`marca`, `modelo`,`precio`) VALUES ('Marca2', 'Modelo4',4000);
+INSERT INTO `bicicleteria`.`bicicletas` (`marca`, `modelo`,`precio`) VALUES ('Marca3', 'Modelo1',6000);
+
+
+
+
+	 * */
+	
+	
+	
+	
 	
 }

@@ -9,4 +9,7 @@ import org.springframework.stereotype.Repository;
 public interface BiciRepository extends JpaRepository<Bicicleta,Long>{
 	
 	List<Bicicleta> getByid(Long id);
+	List<Bicicleta> findAllByModeloLike(String Modelo);
+	
+	
 }
